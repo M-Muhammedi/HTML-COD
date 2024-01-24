@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pragraf dersi</title>
+</head>
+<body>
+    <p>Bu<b> kalın </b>yazıdır</p>
+    <p>Bu<i> italik </i>yazıdır</p>
+    <p>Bu<small> küçük </small>yazıdır</p>
+    <p>Bu<big> büyük </big>yazıdır</p>
+    <p>Bu<ins> alt çizili </ins>yazıdır</p>
+    <p>Bu<del>üstü çizili</del>yazıdır</p>
+    <p>Bu<mark> biçimlendirme </mark>yazıdır</p>
+</body>
+</html>
