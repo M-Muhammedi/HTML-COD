@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html formleri</title>
+  </head>
+  <body>
+    <!--burda tüm formleri göstericeiğim -->
+    <form action="">
+      <label for="isim">Ad :</label>
+      <input type="text" name="isim" id="isim" placeholder="Mustafa" required />
+      <br /><br />
+      <label for="soyad">Soyad :</label>
+      <input
+        type="text"
+        name="soyad"
+        id="soyad"
+        placeholder="Muhammedi"
+        required
+      />
+      <br /><br />
+      <label for="tahri">Doğum Günü :</label>
+      <input type="date" name="tahri" id="tahri" required />
+      <br /><br />
+      <label for="time">Kayıt Zamanı :</label>
+      <input type="time" name="time" id="time" />
+      <br /><br />
+      <label for="cinsiyet">Cinsiyet :</label>
+      <label for="kadın">kadın</label>
+      <input type="radio" name="cinsiyet" id="kadın" value="kadın" />
+      <label for="erkek">Erkek</label>
+      <input type="radio" name="cinsiyet" id="erkek" value="erkek" />
+      <br /><br />
+      <label for="telefon">Telefon :</label>
+      <input
+        type="tel"
+        name="telefon"
+        id="telefon"
+        placeholder="(555)-555-5555"
+        required
+      />
+      <br /><br />
+      <label for="eposta">E-posta :</label>
+      <input
+        type="email"
+        name="eposta"
+        id="eposta"
+        placeholder="ex@gmail.com"
+      />
+      <br /><br />
+      <label for="sifre">Şifre :</label>
+      <input
+        type="password"
+        name="sifre"
+        id="sifre"
+        placeholder="************"
+        maxlength="10"
+        required
+      />
+      <br /><br />
+      <label for="kardes">Kardeş Sayısı :</label>
+      <input type="number" name="kardes" id="kardes" min="0" max="30" />
+      <br /><br />
+      <select name="" id="">
+        <option value="ssk">SSK</option>
+        <option value="bagkur">Bağkur</option>
+        <option value="emekli">Emekli İsandığı</option>
+      </select>
+      <br /><br />
+      <label for="">Aktif Olarak Çalışıyorum</label>
+      <input type="checkbox" />
+      <br /><br />
+      <label for="">Adres :</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br /><br />
+      <input type="file" accept=".pdf" />
+      <br /><br />
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
